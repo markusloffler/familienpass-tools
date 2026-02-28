@@ -1,0 +1,18 @@
+# Generated output files
+*.xlsx
+*.ics
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+venv/
+.venv/
+*.egg-info/
+
+# macOS
+.DS_Store
+
+# Claude Code
+Claude.md
+.claude/
