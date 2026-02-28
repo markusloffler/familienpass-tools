@@ -26,17 +26,18 @@ Python tools to
 
 ## Installation
 
-### 1. Create a virtual environment (recommended)
+### Option A: With virtual environment (recommended)
 
 ```bash
 python3 -m venv venv
 source venv/bin/activate  # On Windows: venv\Scripts\activate
+pip install -r requirements.txt
 ```
 
-### 2. Install dependencies
+### Option B: Without virtual environment
 
 ```bash
-pip install -r requirements.txt
+pip3 install -r requirements.txt
 ```
 
 > **Note**: `pyremindkit` and `pyobjc-framework-EventKit` are macOS-only packages used by `create_reminder.py`. On other platforms you can remove those two lines from `requirements.txt` if you don't need the Reminders feature.
